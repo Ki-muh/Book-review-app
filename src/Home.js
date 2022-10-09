@@ -5,6 +5,7 @@ function Home() {
     return(
         <div>
             <UserGreeting />
+            <h1 style={{color: "blue"}} >Classic Reads</h1>
         </div>
     )
 }
