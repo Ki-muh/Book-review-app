@@ -1,6 +1,7 @@
+import React from 'react';
 import './App.css';
 import UserGreeting from './UserGreeting';
-import User from './UserGreeting';
+
 
 function App() {
   return(
