@@ -1,9 +1,10 @@
 import React from "react";
+import UserGreeting from "./UserGreeting"
 
 function Home() {
     return(
         <div>
-            <p>This is Home</p>
+            <UserGreeting />
         </div>
     )
 }
