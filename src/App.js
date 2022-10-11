@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import NavBar from './Navbar';
 import Home from './Home';
 import About from './About';
 
@@ -7,8 +7,8 @@ import About from './About';
 function App() {
   return(
     <div>
-      <Home />
-      <About />
+      <NavBar />
+      <div className='container'>{component}</div>
     </div>
   )
 }
