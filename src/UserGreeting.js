@@ -10,7 +10,7 @@ function UserGreeting() {
   } else if (hours >= 12 && hours < 19) {
     timeOfDay = 'afternoon';
   } else {
-    timeOfDay = 'night';
+    timeOfDay = 'evening';
   }
 
   return (
