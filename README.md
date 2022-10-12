@@ -1,8 +1,8 @@
 # Book Review App
 
 This project is a development from the facebook/create-react-app.
-The project sources and adds to its data through fetching from a RESTful API.
+The project sources and adds to its data through fetching from a RESTful API, applied in the react useEffect hook.
 
 ## Use
 
-The application can be used to track reading progress of various individual books, mark if a book has been read to completion, and post a review for each of the books read.
+The applicattion aims at making it easier for readers to note what they may have taken in from the book availed and also note a review of the books they read.
