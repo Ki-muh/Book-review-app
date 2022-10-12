@@ -32,6 +32,7 @@ function App() {
       </div>
       <footer>
         <p>For any queries, contact us by sending an email to us via <a href="classicbooks@biblichor.com">Classicbooks@biblichor.com</a>.</p>
+        <p>Or call <a href='0799******'>+254-744-546-199</a></p>
       </footer>
     </div>
     // <Books />
