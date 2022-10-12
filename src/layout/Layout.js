@@ -23,7 +23,7 @@ const Layout = () => {
       </div>
 
    <footer>
-    <a href="classicbooks@biblichor.com">Classicbooks@biblichor.com</a>
+    <p>For any queries, contact us by sending an email to us via <a href="classicbooks@biblichor.com">Classicbooks@biblichor.com</a>.</p>
    </footer>
 
     </>

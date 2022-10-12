@@ -11,7 +11,7 @@ useEffect(() => {
 
     return(
         <div>
-            <h1>Hello, my name is K and...</h1>
+            <h1>Hello, I was really trying, time just hasn't been on my side.</h1>
         </div>
     );
 }
