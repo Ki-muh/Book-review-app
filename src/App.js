@@ -1,23 +1,46 @@
 import React from 'react';
+import { Route, Routes } from "react-router-dom";
 import NavBar from './Navbar';
 import Home from "./Home";
 import About from "./About";
 import Books from "./Books"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from './layout/Layout';
 import './App.css';
+// import { Routes } from 'react-router-dom';
 
 function App() {
-  return(
-  <BrowserRouter>
-  <Routes>
-    <Route path="/" element={<Layout />}>
-      <Route path="home" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="books" element={<Books />} />
-    </Route>
-  </Routes>
-</BrowserRouter>)
+  // let component
+  // switch (window.location.pathname) {
+  //   case "/":
+  //     component = <Home />
+  //     break;
+  //   case "/about":
+  //     component = <About />
+  //     break;
+  //   case "books":
+  //     component = <Books />
+  //     break;
+  // }
+  return (
+    <div>
+      <NavBar />
+      <div className='container'>
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/books" element={<Books />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+      <footer>
+        <p>For any queries, contact us by sending an email to us via <a href="classicbooks@biblichor.com">Classicbooks@biblichor.com</a>.</p>
+      </footer>
+    </div>
+    // <Books />
+    // <Switch>
+      // <Route path="/" exact component={Home} />
+    //   <Route path="/about" exact component={About} />
+    //   <Route path="/books" exact component={Books} />
+    // </Switch>
+  )
 }
 
 export default App;
