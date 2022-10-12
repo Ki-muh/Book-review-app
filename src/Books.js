@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 
 function Books() {
-//     const [books, setBooks] = useState([])
+    const [books, setBooks] = useState([])
 
-// useEffect(() => {
-//     fetch("https://example-data.draftbit.com/books?_limit=50")
-//     .then(r => r.json())
-//     .then(data => setBooks(data))
-// })
+useEffect(() => {
+    fetch("https://example-data.draftbit.com/books?_limit=50")
+    .then(r => r.json())
+    .then(data => setBooks(data))
+})
 
     return(
         <div>
-            <p>Hello, my name is K and...</p>
+            <h1>Hello, my name is K and...</h1>
         </div>
     );
 }
